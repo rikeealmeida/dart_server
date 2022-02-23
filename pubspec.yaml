@@ -1,0 +1,20 @@
+name: project_1
+description: A server app using the shelf package and Docker.
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.7.1 <3.0.0'
+
+
+dependencies:
+  args: any
+  shelf: any
+  shelf_router: any
+
+
+dev_dependencies:
+  http: any
+  lints: any
+  test_process: any
+  test: any
